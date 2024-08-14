@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="form">
+        <span class="title">Sign Up</span>
+        <section>
+            <label for="email">Email:</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="email" placeholder="Enter Email">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Invalid email format.</span>
+        </section>
+        <section>
+            <label for="password">Password:</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="password" placeholder="Enter Password">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Password must contain at least 8 characters, including uppercase, lowercase, number, and special character.</span>
+        </section>
+        <section>
+            <label for="phone">Phone Number:</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="phone" placeholder="Enter Phone Number (e.g. 01004325343)">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Invalid phone number format.</span>
+        </section>
+        <section>
+            <label for="credit">Credit Card:</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="credit" placeholder="Enter Credit Card Number">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Invalid credit card format.
+            </span>
+        </section>
+        <section>
+            <label for="username">Username:</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="username" placeholder="Enter Username">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Username must be 5-15 characters long and contain only letters, numbers, and underscores</span>
+        </section>
+        <section>
+            <label for="date">Birth Date (MM/DD/YYYY):</label>
+            <div class="input-container">
+                <input type="text" class="main-item" id="date" placeholder="Enter Birth Date (e.g. 05/08/1994)">
+                <div class="border invalid">
+                    <div class="border blurred"></div>
+                </div>
+                <div class="border valid">
+                    <div class="border blurred"></div>
+                </div>
+            </div>
+            <span class="status">Invalid date format (MM/DD/YYYY)
+            </span>
+        </section>
+        <button id="sign">Sign Up</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
