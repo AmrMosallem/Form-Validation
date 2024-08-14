@@ -157,6 +157,6 @@ sign.onclick = () => {
     date.focus();
     date.scrollIntoView({ behavior: "smooth", block: "center" });
   } else {
-    alert(`Sign Up Successful, Welocme to our Website ${username.value}.`);
+    alert(`Sign Up Successful, Welcome to our Website ${username.value}.`);
   }
 };
